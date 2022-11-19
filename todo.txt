@@ -1,0 +1,15 @@
+Challenge: Guess the name of the state
+What to import:
+                pandas
+                turtle
+Set screen, screen title, screen image and add screen image to the turtle screen(scr.addshape and t.shape)
+read the data in the .csv files for the name of the states and convert the data to a list
+make a variable of total_correct_states_guessed by the player and increase counter by 1 whenever the answer is correct
+make a list datatype that we can append answer to whenever player makes a correct guess
+use screen.textinput to collect data from the player and increase number of guesses by one
+check if player input is 'exit', end the game and list out the total states not collected by the player and put into a .csv file
+use an if loop to check if the answer is in the list of states. if right, append answer to guessed_states
+use the turtle.Turtle() to create a turtle, penup, hideturtle, check for state_data and get x,y coordinate from the csv file
+t.goto()
+turtle.write(answer)
+use a while loop to continue playing if len of list datatype is < 50, if not end the while loop
